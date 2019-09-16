@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import { Tab, Menu, Icon } from "semantic-ui-react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 // TODO: Add missing menu/tabs/nav below
 
@@ -34,24 +34,32 @@ export default class MenuExampleTabularOnTop extends Component {
             icon='home'
             active={activeItem === 'Home Page'}
             onClick={this.handleItemClick}
+            as={Link}
+            to="/"
           />
           <Menu.Item
             name='Characters'
             icon='users'
             active={activeItem === 'Characters'}
             onClick={this.handleItemClick}
+            as={Link}
+            to="/character"
           />
           <Menu.Item
             name='Locations'
             icon='map outline'
             active={activeItem === 'Locations'}
             onClick={this.handleItemClick}
+            as={Link}
+            to="/location"
           />
           <Menu.Item
             name='Episodes'
             icon='video camera'
             active={activeItem === 'Episodes'}
             onClick={this.handleItemClick}
+            as={Link}
+            to="/episode"
           />
           
         </Menu>
