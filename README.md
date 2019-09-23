@@ -26,10 +26,22 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Explain benefit(s) using `client-side routing`?
 > Answer:
+
+  Client-side routing is a JavaScript managed routing option. It offers control over your site URL & content without necessarily having to wait for a server to respond with content. It is designed to mimic the appearance of traditional multi page websites.
+
 - [ ] What does AJAX stand for?
 > Answer:
+
+  Asynchronous JavaScript and XML)
+
 - [ ] What are `controlled components` in React?
 > Answer:
+
+  React components can be broken down into two categories - “controlled” and “uncontrolled” components. It is highly encouraged to use controlled inputs where we can so that the data on the DOM is controlled by us via state, rather than DOM elements like form inputs. Let’s learn about how we can do that with our form.
+
+  In other words, we want our components to manage the data that is in our form rather than leaving the DOM to manage the data via the inputs.
+
+  There are a myriad of reasons why we want this power, from form validation to styling
 
 
 ## Project Set Up
